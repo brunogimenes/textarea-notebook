@@ -67,6 +67,11 @@ scheduler@^0.22.0:
   dependencies:
     loose-envify "^1.1.0"
 
+textarea-notebook@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/textarea-notebook/-/textarea-notebook-0.9.1.tgz#1723680297f7e5961b660928eab8d90d3be54951"
+  integrity sha512-dknO6bjXV5Nxy6mHm+uK5QTZK2RU5sHrQufW0W+KVO7reh5SBeCKrfplp4Wny1tRzgWgsrs6uVN8wvQYQ+Ejhw==
+
 typescript@^4.7.2:
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.2.tgz#1f9aa2ceb9af87cca227813b4310fff0b51593c4"

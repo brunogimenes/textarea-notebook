@@ -7,6 +7,7 @@
     "email": "bruno.gimenes@live.com",
     "url": "https://github.com/brunogimenes"
   },
+  "homepage": "https://brunogimenes.github.io/textarea-notebook/",
   "license": "MIT",
   "peerDependencies": {
     "react": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
@@ -29,5 +30,8 @@
     "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs"
+  },
+  "dependencies": {
+    "textarea-notebook": "^0.9.1"
   }
 }
