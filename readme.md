@@ -25,7 +25,7 @@ It will auto adapt line sizes according to the `font-size`.
         style={{
             minHeight: 400,
         }}
-        **options******={{
+        options={{
     		verticalLineColor: "#d0a090",
     		lineColor: "#fcf9cc",
     		lineBorderColor: "#ccd",
@@ -37,7 +37,7 @@ It will auto adapt line sizes according to the `font-size`.
 
 #### Options
 
-**TextareaNotebook ** accepts all the props the regular **textarea** element.
+**TextareaNotebook** accepts all the props the regular **textarea** element.
 Also, it has an additional **options** prop. You can use it to customize the component.
 
 | Property          | Type   | Description                                                                                                                                                                       | Default   |
@@ -51,4 +51,4 @@ Also, it has an additional **options** prop. You can use it to customize the com
 
 ### Live Demo
 
-Not available yet. Working on it.
+https://brunogimenes.github.io/textarea-notebook
