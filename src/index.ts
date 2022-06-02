@@ -1,3 +1,3 @@
-export function sayHell() {
-  return "Hey";
-}
+import TextareaNotebook from "./TextareaNotebook";
+
+export { TextareaNotebook };

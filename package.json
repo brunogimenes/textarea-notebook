@@ -2,7 +2,11 @@
   "name": "textarea-notebook",
   "version": "0.9.0",
   "description": "A lightweight React textarea component that looks like a notebook",
-  "author": "Bruno Gimenes",
+  "author": {
+    "name": "Bruno Gimenes",
+    "email": "bruno.gimenes@live.com",
+    "url": "https://github.com/brunogimenes"
+  },
   "license": "MIT",
   "peerDependencies": {
     "react": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
@@ -15,6 +19,9 @@
     "react-dom": "^18.1.0",
     "typescript": "^4.7.2"
   },
+  "files": [
+    "/lib"
+  ],
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
