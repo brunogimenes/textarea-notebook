@@ -48,7 +48,8 @@ export const buildTextAreaStyle = (
     backgroundRepeat: "no-repeat, repeat",
     backgroundAttachment: "local",
     lineHeight: `${lineHeight}px`,
-    paddingLeft: paramsWithDefaults.marginLeft,
+    paddingLeft:
+      paramsWithDefaults.marginLeft + paramsWithDefaults.verticalLineWidth,
     fontSize: paramsWithDefaults.fontSize,
     resize: "none",
     border: "none",

@@ -1,6 +1,6 @@
 {
   "name": "textarea-notebook",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "A lightweight React textarea component that looks like a notebook",
   "author": {
     "name": "Bruno Gimenes",
