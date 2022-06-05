@@ -7,7 +7,11 @@
     "email": "bruno.gimenes@live.com",
     "url": "https://github.com/brunogimenes"
   },
-  "homepage": "https://brunogimenes.github.io/textarea-notebook/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-user/repo-url.git"
+  },
+  "homepage": "https://github.com/brunogimenes/textarea-notebook",
   "license": "MIT",
   "peerDependencies": {
     "react": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",

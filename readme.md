@@ -1,7 +1,12 @@
-## textarea-notebook
+## textarea-notebook - A ReactJS component
 
-Use notebook styles in your textarea components.
+Use notebook like styles in your textarea components.
 It will auto adapt line sizes according to the `font-size`.
+
+### Live Demo
+
+https://brunogimenes.github.io/textarea-notebook
+
 
 ![](https://brunogimenes.github.io/textarea-notebook/assets/example-1.png)
 
@@ -37,8 +42,9 @@ It will auto adapt line sizes according to the `font-size`.
 
 #### Options
 
-**TextareaNotebook** accepts all the props the regular **textarea** element.
-Also, it has an additional **options** prop. You can use it to customize the component.
+You can customize colors, margins and sizes using the **options** attribute of the component.
+
+**TextareaNotebook** accepts all the same props as a regular **textarea** element, like *value*, *onChange*, *style*, *className*, etc...
 
 | Property          | Type   | Description                                                                                                                                                                       | Default   |
 | ----------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
@@ -47,8 +53,5 @@ Also, it has an additional **options** prop. You can use it to customize the com
 | lineBorderColor   | string | The horizontal lines border color                                                                                                                                                 | "#ccd"    |
 | verticalLineWidth | number | The width of the left vertial line                                                                                                                                                | 2         |
 | fontSize          | number | The fontSize for the component. line-height will be calculated based on this value. If you use custom classes or styles, be sure to use the same value here as the computed style | 18,       |
-| marginLeft        | number | The margin between the left of the element and the text. Also defines where the vertical will be                                                                                  | 50        |
+| marginLeft        | number | The margin between the left of the element and the text. Also defines where the vertical line will be                                                                                  | 50        |
 
-### Live Demo
-
-https://brunogimenes.github.io/textarea-notebook
