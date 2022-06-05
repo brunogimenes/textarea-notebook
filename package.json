@@ -12,6 +12,13 @@
     "url": "https://github.com/your-user/repo-url.git"
   },
   "homepage": "https://github.com/brunogimenes/textarea-notebook",
+  "keywords": [
+    "textarea",
+    "notebook",
+    "react",
+    "typescript",
+    "lines"
+  ],
   "license": "MIT",
   "peerDependencies": {
     "react": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
